@@ -7,7 +7,7 @@ public class Main {
         int girls, boys, people;
         girls = 11;
         boys = 3;
-        people = girls / boys;
+        people = girls % boys;
 
         System.out.println(people);
     }
