@@ -3,5 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner bucky = new Scanner(System.in);
+
+        int girls, boys, people;
+        girls = 6;
+        boys = 3;
+        people = girls + boys;
     }
 }
