@@ -8,5 +8,7 @@ public class Main {
         girls = 6;
         boys = 3;
         people = girls + boys;
+
+        System.out.println(people);
     }
 }
