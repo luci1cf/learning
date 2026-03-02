@@ -10,5 +10,8 @@ public class Main {
 
         System.out.println("Enter second num: ");
         snum = bucky.nextDouble();
+
+        answer = fnum + snum;
+        System.out.println(answer);
     }
 }
