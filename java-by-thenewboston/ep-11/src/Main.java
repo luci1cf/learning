@@ -4,7 +4,7 @@ public class Main {
         boy = 18;
         girl = 40;
 
-        if (boy > 10 && girl < 60) {
+        if (boy > 10 || girl < 60) {
             System.out.println("You can enter");
         } else {
             System.out.println("You are too young");
