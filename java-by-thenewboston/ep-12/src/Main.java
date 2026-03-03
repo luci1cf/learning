@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int age;
-        age = 3;
+        age = 7;
 
         switch (age) {
             case 1:
