@@ -8,4 +8,8 @@ public class Tuna {
     public String getGirlName() {
         return girlName;
     }
+
+    public void saying() {
+        System.out.println("Your first gf was %s", getGirlName());
+    }
 }
