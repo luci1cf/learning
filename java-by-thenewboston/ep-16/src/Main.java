@@ -7,5 +7,8 @@ public class Main {
 
         System.out.println("Enter name of first gf here: ");
         String temp = input.nextLine();
+
+        tunaObject.setGirlName(temp);
+        tunaObject.saying();
     }
 }
