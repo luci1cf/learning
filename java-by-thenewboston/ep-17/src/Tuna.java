@@ -1,6 +1,10 @@
 public class Tuna {
     private String girlName;
 
+    public Tuna(String name) {
+        girlName = name;
+    }
+
     public String getGirlName() {
         return girlName;
     }
@@ -10,6 +14,6 @@ public class Tuna {
     }
 
     public void saying() {
-        System.out.println("Your first gf was %s\n", getGirlName());
+        System.out.printf("Your first gf was %s\n", getGirlName());
     }
 }
