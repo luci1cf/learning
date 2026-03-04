@@ -1,5 +1,5 @@
 public class Tuna {
-    public void simpleMessage_(String name) {
+    public void simpleMessage(String name) {
         System.out.println("Hello " + name);
     }
 }

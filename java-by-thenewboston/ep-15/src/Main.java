@@ -7,5 +7,7 @@ public class Main {
 
         System.out.println("Enter your name here: ");
         String name = input.nextLine();
+
+        tunaObject.simpleMessage(name);
     }
 }
