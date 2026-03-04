@@ -4,5 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Tuna tunaObject = new Tuna();
+
+        System.out.println("Enter name of first gf here: ");
+        String temp = input.nextLine();
     }
 }
